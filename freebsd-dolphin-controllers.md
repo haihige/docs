@@ -22,15 +22,6 @@ notify 100 {
         match "product"     "0x0337";
         action              "chown root:operator /dev/$cdev; chmod 0660 /dev/$cdev";
 };
-
-notify 101 {
-        match "system"      "USB";
-        match "subsystem"   "INTERFACE";
-        match "type"        "ATTACH";
-        match "vendor"      "0x057e";
-        match "product"     "0x0337";
-        action              "chown root:operator /dev/$cdev; chmod 0660 /dev/$cdev";
-};
 ```
 
 ```console
