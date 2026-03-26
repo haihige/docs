@@ -48,7 +48,3 @@ What surprised me while looking into these was the common characteristics of the
 - Complicated.
 - Do you really need patent protection?
 
-
-## Mozilla
-
-lol at _weak_ in "weak copyleft."
